@@ -1,0 +1,150 @@
+*{
+    font-family: "Roboto";
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--griscla);
+}
+/*Header*/
+header{
+    background-color: var(--amarillo);
+}
+.banner{
+    padding-bottom:0px;
+    margin: 0;
+    width:100%
+}
+.logo{
+    display: block;
+    margin: auto;
+}   
+.barrabq{
+    text-align: center;
+    margin: 20px;
+}
+.navi{
+    display: none;
+}
+nav ul{
+    display: inline;
+}
+.fa-bars{
+    background-color: var(--celeste);
+    color: var(--griscla);
+    margin: 10px 0 10px;
+    margin-left: 45%;
+    padding: 12px;
+    border-radius: 6px;
+    
+}
+/*Main*/
+main{
+    width:90%;
+}
+main section article{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.titular{
+    font-size: 24px;
+    margin-left:5px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+    color: var(--verde);
+}
+.descripcion{
+    display:none;
+}
+section article{
+    background-color: white;
+    margin: 50px 25px 50px 25px;
+
+}
+section article img{
+    margin-left: 15%;
+}
+.caja{
+    padding: 15px 15px 15px 15px; 
+    text-align: left;
+    border-top: solid var(--griscla);
+
+
+}
+.caja i{
+    border: solid var(--verde) 1px;
+    border-radius: 50%;
+    padding:10px;
+}
+.caja h4{
+    color: var(--grisosc);
+}
+.fa-truck{
+    color: var(--verde);
+}
+/*Footer*/
+
+footer{
+    text-align: center;
+    margin-top: 20%;
+}
+footer section div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fa-user-shield, .fa-gift, .fa-credit-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+.copy{
+    color: var(--grisosc)
+}
+.div2{
+    background-color: white;
+    border: solid var(--griscla);
+    margin:2px ;
+}
+
+@media (min-width:361px) /*Tablet*/{
+    /*Header*/
+    .navi{
+        display: inline;
+    }
+    .fa-bars{
+        display:none;
+    }
+    /*Main*/
+    .descripcion{
+        display:block;
+    }
+    section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .caja{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+@media(min-width:769px) /*Desktop*/{
+    .navi{
+        display: inline;
+    }
+    .fa-bars{
+        display:none;
+    }
+    .descripcion{
+        display:block;
+    }
+    section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .caja{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}

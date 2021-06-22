@@ -1,0 +1,10 @@
+@import url("./home.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisosc: #666;
+    --griscla: #ebebeb;
+    --verde: #39b54a;
+}
